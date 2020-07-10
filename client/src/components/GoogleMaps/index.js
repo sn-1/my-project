@@ -9,8 +9,10 @@ function Map(){
     const [selectedPlace, setSelectedPlace] =useState(null);
     const [address, setAddress] = React.useState("");
     const [coordinates, setCoordinates] = React.useState({
-        lat: 39.106667,
-        lng: -94.676392
+        // lat: 39.106667,
+        // lng: -94.676392
+        lat: 40.730610,
+         lng: -73.935242
     });
     const [placeId, setplaceId] = React.useState("");
     
@@ -61,7 +63,7 @@ function Map(){
                     <p>Longitude: {coordinates.lng}</p> */}
                     <input {...getInputProps({ placeholder: "Type address" })} />
                     <div>
-                        {loading ? <div>...loading</div> : null}
+                        {loading ? <div>Here we go...</div> : null}
 
                         {suggestions.map(suggestion => {
                         const style = {

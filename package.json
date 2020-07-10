@@ -1,5 +1,5 @@
 {
-  "name": "Hodophile",
+  "name": "hodophile",
   "version": "1.0.0",
   "description": "An app that a group of friends or family members can use to help plan a trip they will be taking together",
   "author": "nawrin, arraya, ian",
@@ -75,6 +75,7 @@
     "express": "^4.17.1",
     "express-flash-messages": "^0.1.1",
     "express-session": "^1.17.1",
+    "google-map-react": "^1.1.7",
     "helmet": "^3.23.3",
     "if-env": "^1.0.4",
     "local-storage": "^2.0.0",

@@ -3,7 +3,8 @@ import { Container, Row, Col } from 'react-bootstrap';
 import Map from "../components/GoogleMaps";
 
 function Location() {
-    const googleKey = process.env.REACT_APP_GOOGLE_KEY
+    // const googleKey = process.env.REACT_APP_GOOGLE_KEY
+    const googleKey = "AIzaSyCd2JN7xZ0b2Rd9yuaDDb6HSad3BH4ZMas";
     return (
         <Container fluid id="profile" className="m-0 p-0">
             <Container className="px-5 mx-auto" style={{ marginTop: "50px", paddingTop: "50px", paddingBottom: "150px"}}>
